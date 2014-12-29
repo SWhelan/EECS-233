@@ -1,0 +1,104 @@
+1. When attempting to open a file that does not exist the program should tell the user the file doesn't exist and take no further action.
+File not found. Please try again.
+For the following series of test a file will be used containing: "this is a test a this is a more words for test" will be used contained in test.txt
+Test Num Nodes
+2. The number of nodes created from this file should be seven.
+7
+Test Num Edges
+3. The number of edges created from this file should be nine.
+9
+Test Word Counts
+4. The word count for a word appearing once should be one (using more)
+1
+5. The word count for a word appearing twice should be two (using this)
+2
+6. The word count for a word not appearing in the source text should be negative one (using not)
+-1
+Test In Degrees
+7. The indegree for "more" should be: 1
+1
+8. The indegree for "this" should be: 1
+1
+9. The indegree for "not" should be: -1
+-1
+10. The indegree for "test" should be: 2
+2
+Test Out Degrees
+11. The outdegree for "more" should be: 1
+1
+12. The outdegree for "this" should be: 1
+1
+13. The outdegree for "not" should be: -1
+-1
+14. The outdegree for "a" should be: 3
+3
+Test Previous Words
+15. The prevWords for "more" should be: "a"
+a
+16. The prevWords for "this" should be: "a"
+a
+17. The prevWords for "not" should be: null
+null
+18. The prevWords for "a" should be: "is, test"
+is test
+19. The prevWords for "test" should be: "a, for"
+a for
+Test Next Words
+20. The nextWords for "more" should be: "words"
+words
+21. The nextWords for "this" should be: "is"
+is
+22. The nextWords for "not" should be: null
+null
+23. The nextWords for "a" should be: "test, this, more"
+test this more
+24. The nextWords for "test" should be: "a"
+a
+Test Word Sequence Cost
+25. When using "this", "is", "a" as a test for word sequence cost the program should return: ~1.79.
+1.791759469228055
+26. When using "this" as a test for word sequence cost the program should return: ~1.79.
+1.791759469228055
+26. When using "is", "a", "more", "words", "for", "test" as a test for word sequence cost the program should return: ~2.89.
+2.8903717578961645
+27. Testing when a word is not in the graph is not applicable because the specifications said to assume the words are in the graph.
+Tests of Generate Phrase with starting word, ending word, and limit parameters
+28. Generate Phrase with "this", "is" and 5 should return: "this is".
+this is
+29. Generate Phrase with "this", "is" and 1 should return: "".
+
+30. Generate Phrase with "this", "for" and 7 should return: "this is a more words for".
+this is a more words for
+31. Generate Phrase with "this", "this" and 5 should return: "this".
+this
+32. Generate Phrase with "test", "for" and 5 should return: "test a more words for".
+test a more words for
+32. Generate Phrase with "test", "for" and 4 should return: "".
+
+33. Generate Phrase with "test", "not" and 4 should return: "".
+
+Tests of Generate Phrase with starting word, ending word, limit and repetitions parameters.
+34. Generate Phrase with "this", "is", 5, and 3 should return: "this is".
+this is
+35. Generate Phrase with "this", "is", 1, and 5 should return: "".
+
+36. Generate Phrase with "this", "for" 7, and 6 should return: "this is a more words for".
+this is a more words for
+37. Generate Phrase with "this", "this" 5, and 12 should return: "this".
+this
+38. Generate Phrase with "test", "for" 5, and 2 should return: "test a more words for".
+test a more words for
+39. Generate Phrase with "test", "for" 4, and 3 should return: "".
+
+40. Generate Phrase with "test", "not" 4, and 1 should return: "".
+
+Testing an Empty File
+41. Testing making a graph of an empty file. Should have num nodes of 0.
+0
+Testing a one word file
+42. Testing making a graph of a file with one word. Should have num nodes of 1.
+1
+43. Testing making a graph of a file with one word. Should have indegree of 0.
+0
+44. Testing making a graph of a file with one word. Should have outdegree of 0.
+0

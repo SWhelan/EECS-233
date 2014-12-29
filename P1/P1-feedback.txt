@@ -1,0 +1,43 @@
+=========================================================================
+Assignment : P1
+Grader     : Hao (Morgan) Zhu
+Reply To   : hzhu@case.edu
+=========================================================================
+[Fundamental Compilation] Succeeded 
+[Test Information]
+Test results for user slw96:
+Run time:   14
+Test count: 8
+Failures:   0
+[Total Score] 24.0 / 24.0
+-------------------------------------------------------------------------
+[Advanced Compilation] Succeed
+[Test Information]
+Test results for user slw96:
+Run time:   197
+Test count: 33
+Failures:   1
+FAILURE [testEquals(NumSetAdvTest)]
+java.lang.AssertionError: Two sets with same elements should be equal
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at NumSetAdvTest.testEquals(NumSetAdvTest.java:30)
+
+[Failed Tests]
+LABEL   >> (NumSet) EQUIVALENCE Method
+TESTS   >> [testEquals(NumSetAdvTest), testEquals2(NumSetAdvTest), testEquals3(NumSetAdvTest)]
+POINT   >> 10.0
+[Total Score] 74.0 / 84.0
+=========================================================================
+
+=========================================================================
+FundCompile >> SUCCEED (10 %)
+AdvCompile  >> SUCCEED (10 %)
+Correctness >> 98 / 98 (30.0 %)
+Effort      >> 29 / 29 Methods (30.0 %)
+Design      >> 5 %
+Style       >> 5 %
+Testing     >> 10 %
+=========================================================================
+[TOTAL GRADE]  100 %
+=========================================================================

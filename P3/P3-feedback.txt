@@ -1,0 +1,37 @@
+=========================================================================
+Assignment : P3
+Grader     : Hao (Morgan) Zhu
+Reply To   : hzhu@case.edu OR bhc24@case.edu
+=========================================================================
+If you have some problem about the program, please contact Ben, who wrote
+reference code of P3. If you get some problem about autotest system, reply
+to Morgan.
+=========================================================================
+[Fundamental Compilation] Succeeded 
+[Test Information]
+Test results for user slw96:
+Run time:   11
+Test count: 13
+Failures:   0
+[Total Score] 53.0 / 53.0
+-------------------------------------------------------------------------
+[Advanced Compilation] Succeed
+[Test Information]
+Test results for user slw96:
+Run time:   9835
+Test count: 14
+Failures:   0
+[Total Score] 65.0 / 65.0
+=========================================================================
+
+=========================================================================
+FundCompile >> SUCCEED (10 %)
+AdvCompile  >> SUCCEED (10 %)
+Correctness >> 133 / 101 (39.5 %)
+Effort      >> 25 / 25 Methods (30.0 %)
+Design      >> 4 %
+Style       >> 4 %
+Testing     >> 8 %
+=========================================================================
+[TOTAL GRADE]  106 %
+=========================================================================

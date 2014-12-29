@@ -1,0 +1,33 @@
+=========================================================================
+Assignment : P2
+Grader     : Hao (Morgan) Zhu
+Reply To   : hzhu@case.edu
+=========================================================================
+[Fundamental Compilation] Succeeded 
+[Test Information]
+Test results for user slw96:
+Run time:   22
+Test count: 10
+Failures:   0
+[Total Score] 31.0 / 31.0
+-------------------------------------------------------------------------
+[Advanced Compilation] Succeed
+[Test Information]
+Test results for user slw96:
+Run time:   36
+Test count: 17
+Failures:   0
+[Total Score] 55.0 / 55.0
+=========================================================================
+
+=========================================================================
+FundCompile >> SUCCEED (10 %)
+AdvCompile  >> SUCCEED (10 %)
+Correctness >> 86 / 86 (30.0 %)
+Effort      >> 21 / 21 Methods (30.0 %)
+Design      >> 5 %
+Style       >> 5 %
+Testing     >> 10 %
+=========================================================================
+[TOTAL GRADE]  100 %
+=========================================================================
